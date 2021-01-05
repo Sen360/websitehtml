@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box>* {
+    flex: 1 1 160px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+li {
+    display: inline;
+    display: inline-block;
+    zoom: 1;
+    vertical-align: top;
+}
+
+li a{
+    display: block;
+    padding: 14px 16px;
+}
+
+li a:hover {
+    background-color: red;
+}
+
+.container {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.term {
+    margin-top: 15px;
+}
+
+.un {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: teal;
+}
+
+.deux {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: green;
+}
+
+.grid {
+    display: grid;
+    grid-auto-rows: minmax(100px,auto);
+}
+
+.fluid {
+    margin: 20px;
+}
+
+article {
+    float: left;
+    height: 700px;
+    width: 70%;
+    background-color: indigo;
+}
+
+.conteneur {
+    display: flex;
+    justify-content: space-between;
+}
+
+.enfant {
+    margin: 25px;
+    flex-basis: 200px;
+    background-color: yellow;
+}
+
+
+.enfant img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+aside {
+    float: right;
+    height: 700px;
+    width: 30%;
+    background-color: red;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: teal;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+}
